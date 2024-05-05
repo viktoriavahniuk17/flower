@@ -1,346 +1,655 @@
-<!doctype html>
-<html lang='en'>
-<head>
-	<meta charset='UTF-8'>
-	<meta name='viewport'
-	      content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
-	<title>Flowers-Ukraine Каталог</title>
-	
-	<link rel='stylesheet' href='scss/main.css'>
-	
-	<script src='js/main.js' defer></script>
-	<script src='js/catalog.js' defer></script>
-</head>
-<body>
-	<div class='wrapper'>
-		<div class='ads'>
-			<div class='ads__header'>
-				<h4 class='ads__header-title'>Підпишіться на нас</h4>
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-				  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-				  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-				</svg>
-			</div>
-			<div class='ads__body'>
-				<div class='ads__content'>
-						<ul class='maps__content-list'>
-							<li class='maps__content-item'>
-								<h1 class='maps__content-list-title'>
-									<img src='img/tel.svg' alt='' class='maps__content-list-title-svg'>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<title>Flowers-Ukraine Каталог</title>
+
+		<link rel="stylesheet" href="scss/main.css" />
+
+		<script src="js/main.js" defer></script>
+		<script src="js/catalog.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="ads">
+				<div class="ads__header">
+					<h4 class="ads__header-title">Підпишіться на нас</h4>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						fill="currentColor"
+						class="bi bi-x-circle"
+						viewBox="0 0 16 16"
+					>
+						<path
+							d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+						/>
+						<path
+							d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+						/>
+					</svg>
+				</div>
+				<div class="ads__body">
+					<div class="ads__content">
+						<ul class="maps__content-list">
+							<li class="maps__content-item">
+								<h1 class="maps__content-list-title">
+									<img
+										src="img/tel.svg"
+										alt=""
+										class="maps__content-list-title-svg"
+									/>
 									Телефон:
 								</h1>
-								<a href='tel:380638293030' class='maps__content-list-link'>+38 (063) 829 30 30</a>
-								<a href='tel:380678293030' class='maps__content-list-link'>+38 (067) 829 30 30</a>
-
+								<a href="tel:380638293030" class="maps__content-list-link"
+									>+38 (063) 829 30 30</a
+								>
+								<a href="tel:380678293030" class="maps__content-list-link"
+									>+38 (067) 829 30 30</a
+								>
 							</li>
-							<li class='maps__content-item'>
-								<h1 class='maps__content-list-title'>
-									<img src='img/skype.svg' alt='' class='maps__content-list-title-svg'>
+							<li class="maps__content-item">
+								<h1 class="maps__content-list-title">
+									<img
+										src="img/skype.svg"
+										alt=""
+										class="maps__content-list-title-svg"
+									/>
 									Skype
 								</h1>
-								<a href='#' class='maps__content-list-link'>Flowers-Ukraine</a>
+								<a href="#" class="maps__content-list-link">Flowers-Ukraine</a>
 							</li>
-							<li class='maps__content-item'>
-								<h1 class='maps__content-list-title'>
-									<img src='img/post.svg' alt='' class='maps__content-list-title-svg'>
+							<li class="maps__content-item">
+								<h1 class="maps__content-list-title">
+									<img
+										src="img/post.svg"
+										alt=""
+										class="maps__content-list-title-svg"
+									/>
 									Пошта
 								</h1>
-								<a href='#' class='maps__content-list-link'>flowers.ukraine2014@gmail.com</a>
+								<a href="#" class="maps__content-list-link"
+									>flowers.ukraine2014@gmail.com</a
+								>
 							</li>
-							<li class='maps__content-item'>
-								<ul class='maps__content-item-list'>
-									<li class='maps__content-item-list-item'>
-										<a href='#' class='maps__content-item-list-item-link'>
-											<img src='img/inst.svg' alt='' class='maps__content-item-list-img'>
+							<li class="maps__content-item">
+								<ul class="maps__content-item-list">
+									<li class="maps__content-item-list-item">
+										<a href="#" class="maps__content-item-list-item-link">
+											<img
+												src="img/inst.svg"
+												alt=""
+												class="maps__content-item-list-img"
+											/>
 										</a>
 									</li>
-									<li class='maps__content-item-list-item'>
-										<a href='#' class='maps__content-item-list-item-link'>
-											<img src='img/skype-icon.svg' alt='' class='maps__content-item-list-img'>
+									<li class="maps__content-item-list-item">
+										<a href="#" class="maps__content-item-list-item-link">
+											<img
+												src="img/skype-icon.svg"
+												alt=""
+												class="maps__content-item-list-img"
+											/>
 										</a>
 									</li>
-									<li class='maps__content-item-list-item'>
-										<a href='#' class='maps__content-item-list-item-link'>
-											<img src='img/facebok.svg' alt='' class='maps__content-item-list-img'>
+									<li class="maps__content-item-list-item">
+										<a href="#" class="maps__content-item-list-item-link">
+											<img
+												src="img/facebok.svg"
+												alt=""
+												class="maps__content-item-list-img"
+											/>
 										</a>
 									</li>
 								</ul>
 							</li>
 						</ul>
 					</div>
+				</div>
+				<div class="ads__footer">
+					<button class="ads__footer-accept">Прийняти</button>
+					<button class="ads__footer-deny">Закрити</button>
+				</div>
 			</div>
-			<div class='ads__footer'>
-				<button class='ads__footer-accept'>Прийняти</button>
-				<button class='ads__footer-deny'>Закрити</button>
-			</div>
-		</div>
-		<header class='header'>
-			<div class='container'>
-				<nav class='nav'>
-					<a href='index.html' class='nav__logo'>
-						<img src='img/logo.svg' alt='Logo' class='nav__logo-link-img'>
-					</a>
-					
-					<div class='nav__search'>
-						<div class='nav__search-group'>
-							<input type='search' class='nav__search-group-inp1' placeholder='Пошук по категорії'>
-							<input type='search' class='nav__search-group-inp2' placeholder='Пошук по товару'>
+			<header class="header">
+				<div class="container">
+					<nav class="nav">
+						<a href="index.html" class="nav__logo">
+							<img src="img/logo.svg" alt="Logo" class="nav__logo-link-img" />
+						</a>
+
+						<div class="nav__search">
+							<div class="nav__search-group">
+								<input
+									type="search"
+									class="nav__search-group-inp1"
+									placeholder="Пошук по категорії"
+								/>
+								<input
+									type="search"
+									class="nav__search-group-inp2"
+									placeholder="Пошук по товару"
+								/>
+							</div>
+
+							<ul class="nav__search-list">
+								<li class="nav__search-list-item">
+									<a href="catalog.html" class="nav__search-list-link"
+										>Каталог товаров</a
+									>
+								</li>
+								<li class="nav__search-list-item">
+									<a href="#" class="nav__search-list-link">Форум</a>
+								</li>
+								<li class="nav__search-list-item">
+									<a href="#" class="nav__search-list-link">Відгуки</a>
+								</li>
+								<li class="nav__search-list-item">
+									<a href="#" class="nav__search-list-link">Акції</a>
+								</li>
+								<li class="nav__search-list-item">
+									<a href="#" class="nav__search-list-link">Новини</a>
+								</li>
+								<li class="nav__search-list-item">
+									<a href="#" class="nav__search-list-link">Інформація</a>
+								</li>
+							</ul>
 						</div>
-						
-						<ul class='nav__search-list'>
-							<li class='nav__search-list-item'>
-								<a href='catalog.html' class='nav__search-list-link'>Каталог товаров</a>
+
+						<div class="nav__search-group-icons">
+							<ul class="nav__search-group-icons-list">
+								<li class="nav__search-group-icons-item">
+									<a href="#" class="nav__search-group-icons-link">
+										<img
+											src="img/viber.svg"
+											alt=""
+											class="nav__search-group-icons-img"
+										/>
+									</a>
+								</li>
+								<li class="nav__search-group-icons-item">
+									<a href="#" class="nav__search-group-icons-link">
+										<img
+											src="img/inst.svg"
+											alt=""
+											class="nav__search-group-icons-img"
+										/>
+									</a>
+								</li>
+								<li class="nav__search-group-icons-item">
+									<a href="#" class="nav__search-group-icons-link">
+										<img
+											src="img/telegram.svg"
+											alt=""
+											class="nav__search-group-icons-img"
+										/>
+									</a>
+								</li>
+								<li class="nav__search-group-icons-item">
+									<a href="#" class="nav__search-group-icons-link">
+										<img
+											src="img/facebok.svg"
+											alt=""
+											class="nav__search-group-icons-img"
+										/>
+									</a>
+								</li>
+							</ul>
+
+							<a href="tel:380678293030" class="nav__search-group-icons-tel"
+								>+38 (067) 829 30 30</a
+							>
+							<div href="" class="nav__search-group-icons-brack">
+								<img
+									src="img/brack.svg"
+									alt=""
+									class="nav__search-group-icons-brack-svg"
+								/>
+								<span class="nav__search-group-icons-brack-price">0</span>
+							</>
+						</div>
+					</nav>
+				</div>
+			</header>
+
+			<main class="main">
+				<div class="basket">
+					<header class="basket__header">
+						<nav class="basket__header-nav">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="currentColor"
+								class="bi bi-x-square basket-close"
+								viewBox="0 0 16 16"
+							>
+								<path
+									d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+								/>
+								<path
+									d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+								/>
+							</svg>
+						</nav>
+					</header>
+					<div class="basket-body">
+						<ul class="basket__list"></ul>
+					</div>
+				</div>
+
+				<section class="catalog">
+					<div class="container">
+						<h1 class="catalog__title">Каталог товарів</h1>
+						<div class="catalog__content">
+							<div class="catalog__content-filter">
+								<button class="catalog__content-filter-btn">
+									Букети
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="currentColor"
+										class="bi bi-chevron-down catalog__content-filter-btn-svg"
+										viewBox="0 0 16 16"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+										/>
+									</svg>
+								</button>
+								<ul class="catalog__content-filter-list">
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input1"
+											data-id="flow1"
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input1" class="catalog__content-filter-label">
+											Букети з троянд
+										</label>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input2"
+											data-id="flow2"
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input2" class="catalog__content-filter-label"
+											>Букети з хризантем</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input3"
+											data-id="flow3"
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input3" class="catalog__content-filter-label"
+											>Букети з альтромерії</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input4"
+											data-id="flow4"
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input4" class="catalog__content-filter-label"
+											>Букети з гербер</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input5"
+											data-id="flow5"
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input5" class="catalog__content-filter-label"
+											>Букети з ірисів</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input6"
+											data-id="flow6"
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input6" class="catalog__content-filter-label"
+											>Букети з півоній</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input7"
+											data-id="flow7"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input7" class="catalog__content-filter-label"
+											>Букети з еустоми</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input8"
+											data-id="flow8"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input8" class="catalog__content-filter-label"
+											>Букети з тюльпонів</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input9"
+											data-id="flow9"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input9" class="catalog__content-filter-label"
+											>Букети з фрезій</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input10"
+											data-id="flow10"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input10" class="catalog__content-filter-label"
+											>Букети з орхідей</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input11"
+											data-id="flow11"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input11" class="catalog__content-filter-label"
+											>Букети з гортензії</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input12"
+											data-id="flow12"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input12" class="catalog__content-filter-label"
+											>Букети з лілій</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input13"
+											data-id="flow13"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input13" class="catalog__content-filter-label"
+											>Букети з гвоздик</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input14"
+											data-id="flow14"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input14" class="catalog__content-filter-label"
+											>Дизайнерські букети
+										</label>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input15"
+											data-id="flow15"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input15" class="catalog__content-filter-label"
+											>Бізнес букети</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input16"
+											data-id="flow16"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input16" class="catalog__content-filter-label"
+											>Букети коханій</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input17"
+											data-id="flow17"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input17" class="catalog__content-filter-label"
+											>Букети для чоловіка</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input18"
+											data-id="flow18"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input18" class="catalog__content-filter-label"
+											>Весняні букети</label
+										>
+									</li>
+									<li class="catalog__content-filter-item">
+										<input
+											type="checkbox"
+											name=""
+											id="input19"
+											data-id="flow19"
+											disabled
+											class="catalog__content-filter-inp"
+										/>
+										<label for="input19" class="catalog__content-filter-label"
+											>Літні букети</label
+										>
+									</li>
+								</ul>
+							</div>
+							<div class="catalog__content-cart"></div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__group">
+						<a href="index.html" class="nav__logo">
+							<img
+								src="img/logo-footer.svg"
+								alt="Logo"
+								class="nav__logo-link-img"
+							/>
+						</a>
+						<ul class="footer__group-list">
+							<li class="footer__group-list-item">
+								<h6 class="footer__group-list-title">Інформація</h6>
 							</li>
-							<li class='nav__search-list-item'>
-								<a href='#' class='nav__search-list-link'>Форум</a>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">О нас</a>
 							</li>
-							<li class='nav__search-list-item'>
-								<a href='#' class='nav__search-list-link'>Відгуки</a>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links"
+									>Доставка та оплата</a
+								>
 							</li>
-							<li class='nav__search-list-item'>
-								<a href='#' class='nav__search-list-link'>Акції</a>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links"
+									>ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</a
+								>
 							</li>
-							<li class='nav__search-list-item'>
-								<a href='#' class='nav__search-list-link'>Новини</a>
+						</ul>
+						<ul class="footer__group-list">
+							<li class="footer__group-list-item">
+								<h6 class="footer__group-list-title">Служба підтримки</h6>
 							</li>
-							<li class='nav__search-list-item'>
-								<a href='#' class='nav__search-list-link'>Інформація</a>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">КАРТА САЙТУ </a>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links"
+									>ПОВЕРНЕННЯ ТОВАРУ</a
+								>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links"
+									>ЗВ'ЯЗАТИСЯ З НАМИ
+								</a>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">ДЛЯ СПІВПРАЦІ</a>
+							</li>
+						</ul>
+						<ul class="footer__group-list">
+							<li class="footer__group-list-item">
+								<h6 class="footer__group-list-title">Особистий кабінет</h6>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links"
+									>ОСОБИСТИЙ КАБІНЕТ</a
+								>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links"
+									>ІСТОРІЯ ЗАМОВЛЕННЯ</a
+								>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">ЗАКЛАДКИ </a>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">СПИСОК НОВИН</a>
+							</li>
+						</ul>
+						<ul class="footer__group-list">
+							<li class="footer__group-list-item">
+								<h6 class="footer__group-list-title">Додатково</h6>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">ПОДАРУНКОВІ </a>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">СЕРТИФІКАТИ</a>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">АКЦІЇ</a>
+							</li>
+							<li class="footer__group-list-item">
+								<a href="#" class="footer__group-list-links">КВІТИ В ОФІС</a>
 							</li>
 						</ul>
 					</div>
-					
-					<div class='nav__search-group-icons'>
-							<ul class='nav__search-group-icons-list'>
-								<li class='nav__search-group-icons-item'>
-									<a href='#' class='nav__search-group-icons-link'>
-										<img src='img/viber.svg' alt='' class='nav__search-group-icons-img'>
-									</a>
-								</li>
-								<li class='nav__search-group-icons-item'>
-									<a href='#' class='nav__search-group-icons-link'>
-										<img src='img/inst.svg' alt='' class='nav__search-group-icons-img'>
-									</a>
-								</li>
-								<li class='nav__search-group-icons-item'>
-									<a href='#' class='nav__search-group-icons-link'>
-										<img src='img/telegram.svg' alt='' class='nav__search-group-icons-img'>
-									</a>
-								</li>
-								<li class='nav__search-group-icons-item'>
-									<a href='#' class='nav__search-group-icons-link'>
-										<img src='img/facebok.svg' alt='' class='nav__search-group-icons-img'>
-									</a>
-								</li>
-							</ul>
-							
-							<a href='tel:380678293030' class='nav__search-group-icons-tel'>+38 (067) 829 30 30</a>
-							<a href='' class='nav__search-group-icons-brack'>
-								<img src='img/brack.svg' alt='' class='nav__search-group-icons-brack-svg'>
-								<span class='nav__search-group-icons-brack-price'>0</span>
-							</a>
-						</div>
-				</nav>
-			</div>
-		</header>
-		
-		<main class='main'>
-			<section class='catalog'>
-				<div class='container'>
-					<h1 class='catalog__title'>Каталог товарів</h1>
-					<div class='catalog__content'>
-						<div class='catalog__content-filter'>
-							<button class='catalog__content-filter-btn'>Букети
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down catalog__content-filter-btn-svg" viewBox="0 0 16 16">
-								  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-								</svg>
-							</button>
-							<ul class='catalog__content-filter-list'>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input1' class='catalog__content-filter-inp'>
-									<label for='input1' class='catalog__content-filter-label'> Букети з троянд </label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input2' class='catalog__content-filter-inp'>
-									<label for='input2' class='catalog__content-filter-label'>Букети з хризантем</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input3' class='catalog__content-filter-inp'>
-									<label for='input3' class='catalog__content-filter-label'>Букети з альтромерії</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input4' class='catalog__content-filter-inp'>
-									<label for='input4' class='catalog__content-filter-label'>Букети з гербер</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input5' class='catalog__content-filter-inp'>
-									<label for='input5' class='catalog__content-filter-label'>Букети з ірисів</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input6' class='catalog__content-filter-inp'>
-									<label for='input6' class='catalog__content-filter-label'>Букети з півоній</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input7' class='catalog__content-filter-inp'>
-									<label for='input7' class='catalog__content-filter-label'>Букети з еустоми</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input8' class='catalog__content-filter-inp'>
-									<label for='input8' class='catalog__content-filter-label'>Букети з тюльпонів</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input9' class='catalog__content-filter-inp'>
-									<label for='input9' class='catalog__content-filter-label'>Букети з фрезій</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input10' class='catalog__content-filter-inp'>
-									<label for='input10' class='catalog__content-filter-label'>Букети з орхідей</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input11' class='catalog__content-filter-inp'>
-									<label for='input11' class='catalog__content-filter-label'>Букети з гортензії</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input12' class='catalog__content-filter-inp'>
-									<label for='input12' class='catalog__content-filter-label'>Букети з лілій</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input13' class='catalog__content-filter-inp'>
-									<label for='input13' class='catalog__content-filter-label'>Букети з гвоздик</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input14' class='catalog__content-filter-inp'>
-									<label for='input14' class='catalog__content-filter-label'>Дизайнерські букети </label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input15' class='catalog__content-filter-inp'>
-									<label for='input15' class='catalog__content-filter-label'>Бізнес букети</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input16' class='catalog__content-filter-inp'>
-									<label for='input16' class='catalog__content-filter-label'>Букети коханій</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input17' class='catalog__content-filter-inp'>
-									<label for='input17' class='catalog__content-filter-label'>Букети для чоловіка</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input18' class='catalog__content-filter-inp'>
-									<label for='input18' class='catalog__content-filter-label'>Весняні букети</label>
-								</li>
-								<li class='catalog__content-filter-item'>
-									<input type='checkbox' name='' id='input19' class='catalog__content-filter-inp'>
-									<label for='input19' class='catalog__content-filter-label'>Літні букети</label>
-								</li>
-							</ul>
-						</div>
-						<div class='catalog__content-cart'>
-						
-						</div>
+
+					<div class="footer__copyright">
+						<p class="footer__copyright-text">
+							Copyright © 2021. Усі права захищені
+						</p>
+						<ul class="footer__copyright-list">
+							<li class="footer__copyright-item">
+								<p class="footer__copyright-text">Способи оплати:</p>
+							</li>
+							<li class="footer__copyright-item">
+								<img
+									src="img/footer1.svg"
+									alt=""
+									class="footer__copyright-img"
+								/>
+							</li>
+							<li class="footer__copyright-item">
+								<img
+									src="img/footer2.svg"
+									alt=""
+									class="footer__copyright-img"
+								/>
+							</li>
+							<li class="footer__copyright-item">
+								<img
+									src="img/footer3.svg"
+									alt=""
+									class="footer__copyright-img"
+								/>
+							</li>
+							<li class="footer__copyright-item">
+								<img
+									src="img/footer4.svg"
+									alt=""
+									class="footer__copyright-img"
+								/>
+							</li>
+							<li class="footer__copyright-item">
+								<img
+									src="img/footer5.svg"
+									alt=""
+									class="footer__copyright-img"
+								/>
+							</li>
+						</ul>
 					</div>
 				</div>
-			</section>
-		</main>
-		
-		<footer class='footer'>
-			<div class='container'>
-				
-				<div class='footer__group'>
-					<a href='index.html' class='nav__logo'>
-						<img src='img/logo-footer.svg' alt='Logo' class='nav__logo-link-img'>
-					</a>
-					<ul class='footer__group-list'>
-						<li class='footer__group-list-item'>
-							<h6 class='footer__group-list-title'>Інформація</h6>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>О нас</a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>Доставка та оплата</a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</a>
-						</li>
-						
-					</ul>
-					<ul class='footer__group-list'>
-						<li class='footer__group-list-item'>
-							<h6 class='footer__group-list-title'>Служба підтримки</h6>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>КАРТА САЙТУ </a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ПОВЕРНЕННЯ ТОВАРУ</a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ЗВ'ЯЗАТИСЯ З НАМИ </a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ДЛЯ СПІВПРАЦІ</a>
-						</li>
-					</ul>
-					<ul class='footer__group-list'>
-						<li class='footer__group-list-item'>
-							<h6 class='footer__group-list-title'>Особистий кабінет</h6>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ОСОБИСТИЙ КАБІНЕТ</a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ІСТОРІЯ ЗАМОВЛЕННЯ</a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ЗАКЛАДКИ </a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>СПИСОК НОВИН</a>
-						</li>
-					</ul>
-					<ul class='footer__group-list'>
-						<li class='footer__group-list-item'>
-							<h6 class='footer__group-list-title'>Додатково</h6>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>ПОДАРУНКОВІ </a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>СЕРТИФІКАТИ</a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>АКЦІЇ</a>
-						</li>
-						<li class='footer__group-list-item'>
-							<a href='#' class='footer__group-list-links'>КВІТИ В ОФІС</a>
-						</li>
-					</ul>
-				</div>
-				
-				<div class='footer__copyright'>
-					<p class='footer__copyright-text'>Copyright © 2021. Усі права захищені</p>
-					<ul class='footer__copyright-list'>
-						<li class='footer__copyright-item'>
-							<p class='footer__copyright-text'>Способи оплати:</p>
-						</li>
-						<li class='footer__copyright-item'>
-							<img src='img/footer1.svg' alt='' class='footer__copyright-img'>
-						</li>
-						<li class='footer__copyright-item'>
-							<img src='img/footer2.svg' alt='' class='footer__copyright-img'>
-						</li>
-						<li class='footer__copyright-item'>
-							<img src='img/footer3.svg' alt='' class='footer__copyright-img'>
-						</li>
-						<li class='footer__copyright-item'>
-							<img src='img/footer4.svg' alt='' class='footer__copyright-img'>
-						</li>
-						<li class='footer__copyright-item'>
-							<img src='img/footer5.svg' alt='' class='footer__copyright-img'>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-	</div>
-</body>
+			</footer>
+		</div>
+	</body>
 </html>
