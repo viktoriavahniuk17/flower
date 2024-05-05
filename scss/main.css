@@ -74,6 +74,7 @@
 
 .catalog__content-cart-item {
   width: 338px;
+  height: 550px;
   padding-bottom: 10px;
   border: 1px solid #956D84;
   overflow: hidden;
@@ -148,6 +149,95 @@
 .catalog__content-cart-link:hover {
   opacity: 1;
   color: #956D84;
+  transition: all 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.basket {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(-150%);
+  width: 85vw;
+  height: 85vh;
+  padding: 20px;
+  background-color: #956D84;
+  box-shadow: 0 5px 10px #686565;
+  border-radius: 10px;
+  overflow-y: auto;
+  z-index: 20;
+  transition: all 0.4s;
+}
+
+.basket--show {
+  transform: translate(-50%, -50%) translateX(0%);
+  transition: all 0.4s;
+}
+
+.basket__header {
+  margin-bottom: 20px;
+}
+
+.basket-close {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+  transition: all 0.4s;
+}
+.basket-close:hover {
+  filter: drop-shadow(3px 0 5px red);
+  transition: all 0.4s;
+}
+
+.img__basket {
+  width: 130px;
+  height: 150px;
+}
+
+.basket__list li {
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 25px;
+  align-items: center;
+  transition: all 0.4s;
+}
+.basket__list li:hover {
+  box-shadow: 0 0 10px #000000;
+  transition: all 0.4s;
+}
+
+.basket-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.basket__title {
+  font-size: 20px;
+}
+
+.basket__price {
+  font-size: 18px;
+}
+
+.remove {
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+.remove:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
   transition: all 0.3s;
 }
 
@@ -230,6 +320,9 @@ button {
   height: 26px;
   color: #956D84;
   border-bottom: 1px solid #956D84;
+}
+.nav__search-group-inp2::-moz-placeholder {
+  background: url("../img/search.svg") no-repeat right;
 }
 .nav__search-group-inp2::placeholder {
   background: url("../img/search.svg") no-repeat right;
@@ -609,6 +702,4 @@ button {
   transform: scale(1.05);
   background: darkred;
   transition: all 0.4s;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
